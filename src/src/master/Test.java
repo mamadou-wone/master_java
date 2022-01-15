@@ -1,8 +1,6 @@
 package master;
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -22,7 +20,7 @@ public class Test {
 //        }catch(IOException e){
 //            e.printStackTrace();
 //        }
-        Scanner scanner = null;
+ /*       Scanner scanner = null;
         try {
             scanner = new Scanner(new FileReader("students.txt"));
             scanner.useDelimiter(",");
@@ -37,6 +35,25 @@ public class Test {
             if (scanner != null){
                 scanner.close();
             }
+        }*/
+
+        Scanner scanner = null;
+        try {
+            scanner = new Scanner(new BufferedReader(new FileReader("students.txt")));
+            scanner.useDelimiter(",");
+            while (scanner.hasNextLine()){
+                int loc = scanner.nextInt();
+                scanner.skip(scanner.delimiter());
+                String description = scanner.nextLine();
+                System.out.println(loc + ": "+ description );
+            }
+        }catch(IOException e){
+            e.printStackTrace();
+        }finally {
+            if (scanner != null){
+                scanner.close();
+            }
         }
+
     }
 }
