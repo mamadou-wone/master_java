@@ -46,7 +46,6 @@ public class AtmImpl implements IATM{
     public void deposit(int amount) {
         if (amount > 0){
             balance += amount;
-            System.out.println("Transaction successfully complete ");
         }
     }
 
