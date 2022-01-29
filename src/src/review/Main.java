@@ -1,15 +1,18 @@
 package review;
 
+import review.factoriel.Factorial;
+
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println(Factorial.calculateFactorial());
     //    drawTriangle(10);
     //    System.out.println( harmonicSum());
     //    System.out.println(delta(3, -6, -2));
-        System.out.println(Arrays.toString(userNumbersInput()));
+    //    System.out.println(Arrays.toString(userNumbersInput()));
     }
 
     /**
@@ -119,8 +122,5 @@ public class Main {
     public static int delta(int a, int b, int c){
         return (int) (Math.pow(b, 2)  - 4 * a * c);
     }
-
-
-
 
 }
