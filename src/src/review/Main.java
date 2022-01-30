@@ -8,9 +8,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Point point = new Point(1, 20);
+    /*Cercle cercle = new Cercle(new Point(2, 3), 4);
+    cercle.display();*/
+/*        Point point = new Point(1, 20);
         point.translate(20, -1);
-        point.display();
+        point.display();*/
       /*  System.out.println(point.coicide(new Point(0, 0)));*/
     //    System.out.println(Factorial.calculateFactorial());
     //    drawTriangle(10);
