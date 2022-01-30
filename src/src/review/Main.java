@@ -8,7 +8,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Factorial.calculateFactorial());
+        Point point = new Point(1, 20);
+        point.translate(20, -1);
+        point.display();
+      /*  System.out.println(point.coicide(new Point(0, 0)));*/
+    //    System.out.println(Factorial.calculateFactorial());
     //    drawTriangle(10);
     //    System.out.println( harmonicSum());
     //    System.out.println(delta(3, -6, -2));
