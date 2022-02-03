@@ -2,6 +2,7 @@ package review;
 
 import exo11.ReverseChain;
 import exo12.NumberOcc;
+import exo14.FindChain;
 import review.factoriel.Factorial;
 
 import java.util.Arrays;
@@ -26,7 +27,7 @@ public class Main {
 /*        System.out.println(NumberOcc.getNbOcc("Aminata", 'a'));
         System.out.println(NumberOcc.getNbVoy("Mamadou Ibn Amir Boss WONE"));*/
 
-
+        System.out.println(FindChain.find("Mamadou Ibn Amir Boss WONE", "oss"));
     }
 
     /**
