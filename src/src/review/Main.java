@@ -1,5 +1,6 @@
 package review;
 
+import exo11.ReverseChain;
 import review.factoriel.Factorial;
 
 import java.util.Arrays;
@@ -19,6 +20,7 @@ public class Main {
     //    System.out.println( harmonicSum());
     //    System.out.println(delta(3, -6, -2));
     //    System.out.println(Arrays.toString(userNumbersInput()));
+       // System.out.println(ReverseChain.reverseChain("bonjour"));;
     }
 
     /**
