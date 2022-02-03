@@ -23,8 +23,10 @@ public class Main {
     //    System.out.println(Arrays.toString(userNumbersInput()));
        // System.out.println(ReverseChain.reverseChain("bonjour"));;
 
-        System.out.println(NumberOcc.getNbOcc("Aminata", 'a'));
-        System.out.println(NumberOcc.getNbVoy("Mamadou Ibn Amir Boss WONE"));
+/*        System.out.println(NumberOcc.getNbOcc("Aminata", 'a'));
+        System.out.println(NumberOcc.getNbVoy("Mamadou Ibn Amir Boss WONE"));*/
+
+
     }
 
     /**
