@@ -1,6 +1,7 @@
 package review;
 
 import exo11.ReverseChain;
+import exo12.NumberOcc;
 import review.factoriel.Factorial;
 
 import java.util.Arrays;
@@ -21,6 +22,9 @@ public class Main {
     //    System.out.println(delta(3, -6, -2));
     //    System.out.println(Arrays.toString(userNumbersInput()));
        // System.out.println(ReverseChain.reverseChain("bonjour"));;
+
+        System.out.println(NumberOcc.getNbOcc("Aminata", 'a'));
+        System.out.println(NumberOcc.getNbVoy("Mamadou Ibn Amir Boss WONE"));
     }
 
     /**
