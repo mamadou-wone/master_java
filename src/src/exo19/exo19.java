@@ -4,8 +4,8 @@ public class exo19 {
 
     public static void main(String[] args) {
         String [] tab = {"j", "k", "a", "l", "b"};
-        //sortArray(tab);
-        changePosition(tab, 2, 4);
+        sortArray(tab);
+//        changePosition(tab, 2, 4);
     }
 
     public static String [] sortArray(String[] tab){
