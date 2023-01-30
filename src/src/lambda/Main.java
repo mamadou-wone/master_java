@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Student david = new Student("David", 8);
-        Student amir = new Student("Zoro Boss", 22);
+        Student amir = new Student("Zoro Boss", 32);
         Student houleye = new Student("Houleye WONE", 12);
         Student omzo = new Student("Omar", 38);
 
@@ -16,10 +16,18 @@ public class Main {
         studentList.add(omzo);
         studentList.add(david);
 
-        studentList.stream()
-                .sorted()
+        studentList
+                .forEach(student -> {
+                    if (student.getAge() > 30){
+                        System.out.println(student);
+                    }
+                });
+               // .sorted()
                 //.sorted((o1, o2) -> String.valueOf(o1.getAge()).compareTo(String.valueOf(o2.getAge())))
-                .forEach(System.out::println);
+//                .forEach(student -> {
+//                    System.out.println(student.getName());
+//                });
+
 
 //        Collections.sort(studentList, (student1, student2) ->
 //                    student1.getName().compareTo(student2.getName()));
@@ -27,7 +35,6 @@ public class Main {
 //        for(Student student: studentList){
 //            System.out.println(student.getName());
 //        }
-
 
 
     }
